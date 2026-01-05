@@ -12,7 +12,11 @@
 
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
+
 }
 
 .logo h2{
@@ -50,4 +54,39 @@ nav {
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+#banner{
+    /* border: 1px solid #e20b0b; */
+    margin: 46px 38px 0 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.bio{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.banner-image{
+    max-width: 584px;
+    vertical-align: middle;
 }
