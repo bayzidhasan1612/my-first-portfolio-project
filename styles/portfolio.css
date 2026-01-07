@@ -13,7 +13,7 @@
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 
@@ -49,7 +49,7 @@ nav {
 .btn{
     color: white;
     background-color: #FD6E0A;
-    padding: 18px 35px;
+    padding: 18px 36px;
     border: none;
     border-radius: 5px;
     font-size: 20px;
@@ -240,4 +240,18 @@ footer{
     font-size: 16px;
     color: #474747;
     margin-bottom: 30px;
+}
+#footer-container .icons a{
+    margin-right: 24px;
+}
+#footer-container form input[type="text"], #footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+.message{
+    width: 461px;
 }
